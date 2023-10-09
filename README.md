@@ -8,7 +8,7 @@ Le Pôle développement (6 bureaux, environ **12 équipements** au total)
 Le Pôle Administratif (4 bureaux, environ **20 équipements** au total)   
 Le Pôle Technicien (4 bureaux, environ **15 équipements** au total)
 
-#### Découpage symétrique ####
+## Découpage symétrique
 Nous sommes ici dans un découpage symétrique soit pour un maximum de 50 équipements donc un choix de 64 adresses.
 Il manquera 3 adresses pour le pole technicien afin d'obtenir cette symétrie avec le nombre d'adresses disponibles.
 
@@ -20,7 +20,7 @@ Il manquera 3 adresses pour le pole technicien afin d'obtenir cette symétrie av
 | Le Pôle Technicien | 172.16.0.194/58 | 172.16.0.255 | 172.16.0.195 | 172.16.0.254 |
 
 
-#### Découpage asymétrique
+## Découpage asymétrique
 Dans le cas d'un découpage asymétrique:
 pour le pole informatique il nous faudra 64 adresses 2exp6.
 Pour le Pôle développement il nous faudra 16 adresses 2exp4.
