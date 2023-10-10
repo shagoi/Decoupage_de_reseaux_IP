@@ -10,14 +10,13 @@ Le Pôle Technicien (4 bureaux, environ **15 équipements** au total)
 
 ## Découpage symétrique
 Nous sommes ici dans un découpage symétrique soit pour un maximum de 50 équipements donc un choix de 64 adresses.
-Il manquera 3 adresses pour le pole technicien afin d'obtenir cette symétrie avec le nombre d'adresses disponibles.
 
 |  | Adresse réseau | Adresse de broadcast | Adresse de début de plage | Adresse de fin de plage |
 | --- | --- | --- | --- | --- |
 | Le Pôle informatique | 172.16.1.0/58 | 172.16.0.63 | 172.16.0.1 | 172.16.0.62 |
-| Le Pôle développement | 172.16.0.64/58 | 172.16.0.128 | 172.16.0.65 | 192.168.0.127 |
-| Le Pôle Administratif | 172.16.0.129/58 | 172.16.0.193 | 172.16.0.130 | 172.16.0.192 |
-| Le Pôle Technicien | 172.16.0.194/58 | 172.16.0.255 | 172.16.0.195 | 172.16.0.254 |
+| Le Pôle développement | 172.16.0.64/58 | 172.16.0.127 | 172.16.0.65 | 192.168.0.126 |
+| Le Pôle Administratif | 172.16.0.128/58 | 172.16.0.191 | 172.16.0.129 | 172.16.0.190 |
+| Le Pôle Technicien | 172.16.0.191/58 | 172.16.0.255 | 172.16.0.192 | 172.16.0.254 |
 
 
 ## Découpage asymétrique
